@@ -1,0 +1,90 @@
+.hotel-card-container {
+  background-color: white;
+  width: 430px;
+  height: 420px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid lightgrey;
+  border: 15px solid rgba(195, 85, 85, 0.2);
+  border-radius: 30px;
+}
+
+.image-container {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.minutes {
+  height: 25px;
+  width: 65px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  /* padding: 15px; */
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+  margin: 19px;
+}
+
+.offer {
+  color: white;
+  background-color: royalblue;
+  font-size: 20px;
+  height: 30px;
+  width: 170px;
+  text-align: center;
+  padding-top: 7px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.promoted {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 25px;
+  width: 95px;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 15px;
+}
+
+.content-container {
+  font-family: "segoe UI";
+  margin-top: -10px;
+}
+
+.content-container-para {
+  margin-top: -10px;
+  font-size: 20px;
+  color: lightslategray;
+}
+
+.foot-container {
+  display: flex;
+}
+
+.safety-image {
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.footer-para {
+  margin-top: 6px;
+  font-size: 17px;
+  color: lightslategray;
+}
